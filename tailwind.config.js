@@ -24,6 +24,7 @@ export default {
       fontFamily:{
         jersey:['"Jersey 15"',...fontFamily.sans],
         bruno :['"Bruno Ace SC"',...fontFamily.sans],
+        squada:['"Squada One"',...fontFamily.sans],
       }
     },
   },

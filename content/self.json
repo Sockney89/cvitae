@@ -1,0 +1,27 @@
+{
+    "self":{
+        "name":"Bela Csontos",
+        "dob":["1989","October","10"],
+        "contact":{
+            "email":"cson.bela@gmail.com",
+            "address":{
+                "firstLine":"17 Norton Road",
+                "town":"Wokingham",
+                "county":"Berkshire",
+                "postCode":"RG40 2BD"
+            }
+        }
+    },
+    "intro":{
+
+    },
+    "education":{
+        "past":{
+
+        },
+        "ongoing":{
+
+        }
+    },
+    "jobs":[]
+}

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const { fontFamily } = require("tailwindcss/defaultTheme");
 export default {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -9,7 +10,22 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    colors:{
+      primary: '#474747',
+      primaryStrong: '#282828',
+      secondary: {
+        100: '#9b9b9b',
+        200: '#8c8c8c',
+      },
+      onPrimary:"#e7e7e7",
+
+    },
+    extend: {
+      fontFamily:{
+        jersey:['"Jersey 15"',...fontFamily.sans],
+        bruno :['"Bruno Ace SC"',...fontFamily.sans],
+      }
+    },
   },
   plugins: [],
 }
